@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--TagMapper接口的映射文件-->
+<mapper namespace="com.ajuro.common.repository.mapper.ArticleMapper">
+
+    <select id="searchList" resultType="ArticleListVo">
+        SELECT id, title, category_id, create_time
+        FROM sg_article
+        <where>
+            <if test="search != null and search != ''">
+                title LIKE CONCAT('%', #{search}, '%')
+            </if>
+        </where>
+        LIMIT #{pageSize} OFFSET #{offset}
+    </select>
+</mapper>
