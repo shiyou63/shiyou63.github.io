@@ -8,7 +8,7 @@ import com.ajuro.common.repository.mapper.CategoryMapper;
 import com.ajuro.common.service.ArticleService;
 import com.ajuro.common.service.CategoryService;
 import com.ajuro.common.utils.BeanCopyUtils;
-import com.ajuro.common.vo.CategoryVo;
+import com.ajuro.common.model.vo.CategoryVo;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;

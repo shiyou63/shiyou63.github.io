@@ -1,4 +1,4 @@
-package com.ajuro.common.vo;
+package com.ajuro.common.model.vo;
 
 import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.AllArgsConstructor;

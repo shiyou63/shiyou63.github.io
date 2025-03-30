@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class AjuroBlog {
 
     public static void main(String[] args) {
+
         SpringApplication.run(AjuroBlog.class,args);
     }
 }

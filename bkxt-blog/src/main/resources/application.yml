@@ -31,7 +31,7 @@ mybatis-plus:
       logic-not-delete-value: 0
       # 主键自增策略，以mysql数据库为准
       id-type: auto
-  type-aliases-package: com.ajuro.common.vo
+  type-aliases-package: com.ajuro.common.model.vo
   mapper-locations: classpath*:mapper/*.xml
 
 # 打开七牛云，找到密钥管理，把相关信息填写到下面3行，会被bkxt-blog工程的OOSTest类获取

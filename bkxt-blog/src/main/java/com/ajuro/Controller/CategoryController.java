@@ -2,7 +2,7 @@ package com.ajuro.Controller;
 
 import com.ajuro.common.response.ResponseResult;
 import com.ajuro.common.service.CategoryService;
-import com.ajuro.common.vo.CategoryVo;
+import com.ajuro.common.model.vo.CategoryVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

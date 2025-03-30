@@ -1,7 +1,7 @@
 package com.ajuro.common.repository.mapper;
 
 import com.ajuro.common.repository.entity.Article;
-import com.ajuro.common.vo.ArticleListVo;
+import com.ajuro.common.model.vo.ArticleListVo;
 import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;

@@ -1,10 +1,13 @@
 package com.ajuro.Controller;
 
+import com.ajuro.common.model.vo.ArticleDetailVo;
+import com.ajuro.common.model.vo.ArticleListVo;
+import com.ajuro.common.model.vo.HotArticleVO;
+import com.ajuro.common.model.vo.PageVo;
 import com.ajuro.common.repository.entity.Category;
 import com.ajuro.common.response.ResponseResult;
 import com.ajuro.common.repository.mapper.CategoryMapper;
 import com.ajuro.common.service.ArticleService;
-import com.ajuro.common.vo.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,7 +1,7 @@
 package com.ajuro.common.service;
 
 import com.ajuro.common.repository.entity.Category;
-import com.ajuro.common.vo.CategoryVo;
+import com.ajuro.common.model.vo.CategoryVo;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 import java.util.List;

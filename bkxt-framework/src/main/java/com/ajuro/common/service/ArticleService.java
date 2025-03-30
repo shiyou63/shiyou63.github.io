@@ -1,9 +1,9 @@
 package com.ajuro.common.service;
 
 import com.ajuro.common.response.ResponseResult;
-import com.ajuro.common.vo.ArticleDetailVo;
-import com.ajuro.common.vo.ArticleListVo;
-import com.ajuro.common.vo.HotArticleVO;
+import com.ajuro.common.model.vo.ArticleDetailVo;
+import com.ajuro.common.model.vo.ArticleListVo;
+import com.ajuro.common.model.vo.HotArticleVO;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ajuro.common.repository.entity.Article;
 
